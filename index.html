@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+
+    table {
+        background-color: black;
+    }
+
+    th {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        font-size: 25px;
+    }
+
+    .result {
+        border-radius: 50px;
+    }
+
+    .orange {
+        background-color: darkorange;
+        color: white;
+    }
+
+    .grey {
+        background-color: rgb(183, 183, 183);
+    }
+
+    .dark {
+        background-color: rgb(64, 64, 64);
+        color: white;
+    }
+
+    .right {
+        text-align: right;
+        border: 1px solid black;
+        border-radius: 0;
+        color: white;
+        padding: 0 1vw;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="result right">0</th>
+        </tr>
+
+        <tr>
+            <th class="grey">AC</th>
+            <th class="grey">+/-</th>
+            <th class="grey">%</th>
+            <th class="orange">/</th>
+        </tr>
+
+        <tr>
+            <th class="dark">7</th>
+            <th class="dark">8</th>
+            <th class="dark">9</th>
+            <th class="orange">*</th>
+        </tr>
+
+        <tr>
+            <th class="dark">4</th>
+            <th class="dark">5</th>
+            <th class="dark">6</th>
+            <th class="orange">-</th>
+        </tr>
+
+        <tr>
+            <th class="dark">1</th>
+            <th class="dark">2</th>
+            <th class="dark">3</th>
+            <th class="orange">+</th>
+        </tr>
+
+        <tr>
+            <th colspan="2" class="result dark">0</th>
+            <th class="dark">.</th>
+            <th class="orange">=</th>
+        </tr>
+    </table>
+</body>
+</html>
